@@ -32,14 +32,14 @@ class RoomSeeder extends Seeder
             ['room_type_id' => 5, 'room_name' => 'No.1 Ban Pla Sak (Great barracuda) (หลังที่ 1 บ้านปลากะพง)', 'room_status' => '5'],
             ['room_type_id' => 5, 'room_name' => 'No.2 Ban Pla Sak (Great barracuda) (หลังที่ 2 บ้านปลาสาก)', 'room_status' => '5'],
             ['room_type_id' => 5, 'room_name' => 'No.8 Ban Pla Kratongrom (SwellFish) (หลังที่ 8 บ้านปลากระโทงร่ม)', 'room_status' => '5'],
-            ['room_type_id' => 5, 'room_name' => 'No.9 Ban Pla Gramongdang (Thread fin bream) (หลังที่ 9 บ้านปลากระมงแดง)', 'room_status' => '5'],
-            ['room_type_id' => 5, 'room_name' => 'No.11 Ban Pla Tapaen (Eastern Little Tuna) (หลังที่ 11 บ้านปลาตะเพียน)', 'room_status' => '5'],
+            ['room_type_id' => 5, 'room_name' => 'No.9 Ban PlaSingTo (Lionfish) (หลังที่ 19 บ้านปลาสิงโต)', 'room_status' => '5'],
+            ['room_type_id' => 5, 'room_name' => 'No.11 Ban Pla Gramongdang (Thread fin bream) (หลังที่ 9 บ้านปลากระมงแดง) ', 'room_status' => '5'],
             ['room_type_id' => 5, 'room_name' => 'No.15 Ban Pla Kabong (Butterfish) (หลังที่ 15 บ้านปลากะพง)', 'room_status' => '5'],
             ['room_type_id' => 5, 'room_name' => 'No.16 Ban Pla Yeesok (Talang queenfish) (หลังที่ 16 บ้านปลายี่สก)', 'room_status' => '5'],
             ['room_type_id' => 5, 'room_name' => 'No.17 Ban Pla Kapongyai (Grey Snapper) (หลังที่ 17 บ้านปลากะพงใหญ่)', 'room_status' => '5'],
 
             ['room_type_id' => 5, 'room_name' => 'No.18 Ban PlaCartoon (Clownfish) (หลังที่ 18 บ้านปลาการ์ตูน)', 'room_status' => '6'],
-            ['room_type_id' => 5, 'room_name' => 'No.19 Ban PlaSingTo (Lionfish) (หลังที่ 19 บ้านปลาสิงโต)', 'room_status' => '6'],
+            ['room_type_id' => 5, 'room_name' => 'No.19 Ban PlaSingTo (Giant trevally) (หลังที่ 19 บ้านปลาประมง)', 'room_status' => '6'],
         ];
 
         foreach ($data as $item) {
