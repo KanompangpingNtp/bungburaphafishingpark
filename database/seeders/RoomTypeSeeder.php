@@ -16,7 +16,7 @@ class RoomTypeSeeder extends Seeder
         //
         $data = [
             ['room_types_name' => 'XL'],
-            ['room_types_name' => 'XL(special)'],
+            ['room_types_name' => 'XL'],
             ['room_types_name' => 'L'],
             ['room_types_name' => 'M'],
             ['room_types_name' => 'S']
