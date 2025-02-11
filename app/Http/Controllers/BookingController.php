@@ -57,6 +57,6 @@ class BookingController extends Controller
 
         $room->update(['room_status' => '2']);
 
-        return redirect()->back()->with('success', 'Room booked successfully!');
+        return redirect()->back()->with('success', 'จองที่พักสำเร็จแล้ว');
     }
 }

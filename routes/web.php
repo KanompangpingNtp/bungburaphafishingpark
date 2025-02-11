@@ -31,5 +31,4 @@ Route::middleware(['check.auth'])->group(function () {
     Route::get('/admin', [AdminController::class, 'AdminIndex'])->name('AdminIndex');
     Route::post('/admin/{id}/approve', [AdminController::class, 'approve'])->name('approve');
     Route::delete('/admin/booking/{bookingId}', [AdminController::class, 'deleteBooking'])->name('deleteBooking');
-
 });

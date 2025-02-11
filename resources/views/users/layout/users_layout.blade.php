@@ -84,8 +84,6 @@
         </div>
     </nav>
 
-
-
     <div class="mt-4">
         @if ($message = Session::get('success'))
         <script>

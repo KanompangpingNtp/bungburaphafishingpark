@@ -13,7 +13,9 @@ class AdminController extends Controller
     {
         Carbon::setLocale('th');
 
-        $bookRooms = BookRoom::with('room', 'roomType')->get();
+        $bookRooms = BookRoom::with('room', 'roomType')
+        ->orderBy('created_at', 'desc')
+        ->get();
 
         return view('admin.show_room_booking', compact('bookRooms'));
     }
