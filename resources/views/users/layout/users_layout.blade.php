@@ -58,24 +58,24 @@
                     @if (Auth::check())
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('AdminIndex')}}">ประวัติการจองห้อง</a>
+                        <a class="nav-link" href="{{route('AdminIndex')}}">Booking History</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{route('Booking')}}">จองห้อง</a>
+                        <a class="nav-link" href="{{route('Booking')}}">Booking</a>
                     </li>
 
                     <li class="nav-item logout-item">
                         <form action="{{ route('logout') }}" method="POST">
                             @csrf
-                            <button type="submit" class="nav-link btn btn-link">ออกจากระบบ</button>
+                            <button type="submit" class="nav-link btn btn-link">Logout</button>
                         </form>
                     </li>
 
                     @else
 
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('showLoginForm') }}">เข้าสู่ระบบ</a>
+                        <a class="nav-link" href="{{ route('showLoginForm') }}">Login</a>
                     </li>
 
                     @endif

@@ -37,7 +37,7 @@
 
 
 <div class="container">
-    <h2 class="text-center">ระบบจองห้องพัก</h2><br>
+    <h2 class="text-center">Reservation Submission System</h2><br>
     <div class="row">
         {{-- @foreach ($rooms as $room)
         <div class="col-md-4">
@@ -68,10 +68,10 @@
                         {{ $room->room_name }}
                     </h5>
                     <p class="card-text">
-                        <strong>ขนาดห้อง : </strong> {{ $room->roomType->room_types_name }}<br>
+                        <strong>Size Room : </strong> {{ $room->roomType->room_types_name }} <br>
                     </p>
                     <button type="button" class="btn btn-light col-md-12" data-bs-toggle="modal" data-bs-target="#bookRoomModal{{ $room->id }}">
-                        <strong><i class="bi bi-plus-circle"></i> จองห้อง</strong>
+                        <strong><i class="bi bi-plus-circle"></i> Booking</strong>
                     </button>
                 </div>
             </div>
