@@ -56,9 +56,18 @@
         @endforeach --}}
         @foreach ($rooms as $room)
         @php
-            // สร้างชื่อคลาสที่กำหนดเองตาม room_status
-            $cardClass = 'room-status-' . $room->room_status;
+            $statusClasses = [
+                1 => 'room-status-1',
+                2 => 'room-status-2',
+                3 => 'room-status-3',
+                4 => 'room-status-4',
+                5 => 'room-status-5',
+                6 => 'room-status-6',
+            ];
+
+            $cardClass = $statusClasses[$room->room_status] ?? 'room-status-default';
         @endphp
+
 
         <div class="col-md-4">
             <div class="card mb-4 {{ $cardClass }}">
@@ -77,9 +86,6 @@
             </div>
         </div>
     @endforeach
-
-
-
 
         @foreach ($rooms as $room)
         <div class="modal fade" id="bookRoomModal{{ $room->id }}" tabindex="-1" aria-labelledby="bookRoomModalLabel{{ $room->id }}" aria-hidden="true">
